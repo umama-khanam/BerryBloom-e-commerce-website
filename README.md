@@ -13,6 +13,7 @@
 ## 🔗 Preview
 
 You can explore the live version of the website here:
+https://umama-khanam.github.io/BerryBloom-e-commerce-website/
 
 [**BerryBloom Live**](https://your-deployed-link.com)
 
