@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout | Berry Bloom by Arzy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src=./logo.jpg alt="Logo" />
+      <div class="logo-text">
+        <h1>Berry Bloom</h1>
+        <p><strong class="highlight">by Arzy</strong></p>
+      </div>
+    </div>
+  </header>
+
+  <section class="checkout">
+    <h2>Checkout</h2>
+    <form class="payment-form" action="thankyou.html" method="GET">
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your Name" required />
+
+      <label for="address">Delivery Address</label>
+      <textarea id="address" rows="3" placeholder="Enter full address" required></textarea>
+
+      <label for="payment">Payment Method</label>
+      <select id="payment" required>
+        <option value="">-- Select --</option>
+        <option value="upi">UPI</option>
+        <option value="cod">Cash on Delivery</option>
+        <option value="card">Credit/Debit Card</option>
+      </select>
+
+      <button type="submit" class="btn">Place Order</button><a href="payment.html" class="btn small">Buy Now</a>
+
+
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Berry Bloom by Arzy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
