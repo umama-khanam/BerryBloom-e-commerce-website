@@ -246,6 +246,35 @@
       object-fit: cover;
 
     }
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .btn {
+      padding: 10px 20px;
+      background-color:#ff4c4c;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    @media (max-width: 600px) {
+      .button-group {
+        flex-direction: column;
+      }
+    
+      .btn {
+        width: 80%;
+      }
+    }
+    
 /* Footer Styling */
 .footer {
   background-color: #ffdde1;
